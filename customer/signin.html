@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Farmer</title>
+    <link rel="stylesheet" href="custom1.css">
+    <script src="https://kit.fontawesome.com/31ecd17755.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+
+            <li class="logo"><img src="/logo.png" alt="Logo"></li>
+
+          <div class="items">
+          <li><a href="customer1.html">Home</a></li>
+          <li><a href="catagories.html">Categories</a></li>
+          <li><a href="supp.html">Become a Supplier</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+        </div>
+        <li class="searchicon">
+            <input type="search" placeholder="Search">
+            <label class="icon">
+                <span class="fas fa-search"></span>
+            </label>
+        </li>
+        </ul>
+      </nav>
+      <div class="loginbox">
+        <div class="loginform">
+            <form action="/signin" method="post">
+                <h1>Login</h1>
+                <div class="inputbox">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" name="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="rem">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forget Password</a>
+                </div>
+                <button type="submit" class="btnlogin">Login</button>
+                <div class="register">
+                    <p>Don't have an account?<a href="register.html">Register</a></p>
+                </div>
+            </form>
+        </div>
+      </div>
+</body>
+</html>

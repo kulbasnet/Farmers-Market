@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Market</title>
+    <link rel="stylesheet" href="des.css">
+   
+</head>
+<body>
+    <div class="topnav">
+        <img src="k.png" alt="Logo">
+        <div class="navitems">
+        <a href="main.html">Home</a>
+        <a href="myproduct.html">My Product</a>
+        <button > Sign out</button>
+
+    </div>
+    </div>
+
+    <h2 div class="head-fruit"> Fruits</h2>
+    <div class="card-fruit">
+        <div class="card1"> 
+            <img src="kiwi.jpg" alt="Logo">
+            <h3> Kiwi </h3>
+            <p>Size: 3kg</p>
+            <p>Price: Rs.90 </p>
+            <button class="remove-button">Remove</button>
+    </div>
+       <div class="card2">
+       <img src="apple.jpg" alt="Logo">
+            <h3> Apple </h3>
+            <p>Size: 9kg</p>
+            <p>Price: Rs.110 </p>
+            <button class="remove-button1" >Remove</button>
+        </div>
+        <div class="card3">
+            <img src="bana.jpg" alt="Logo">
+                 <h3> Banana </h3>
+                 <p>Size: 2kg</p>
+                 <p>Price: Rs.510 </p>
+                 <button class="remove-button2" >Remove</button>
+             </div>
+
+             <div class="card4">
+                <img src="orange.jpg" alt="Logo">
+                     <h3> Orange </h3>
+                     <p>Size: 3kg</p>
+                     <p>Price: Rs.210 </p>
+                     <button class="remove-button3">Remove</button>
+                 </div>
+
+                 <div class="card5">
+                    <img src="mango.jpg" alt="Logo">
+                         <h3> Mango </h3>
+                         <p>Size: 1kg</p>
+                         <p>Price: Rs.710 </p>
+                         <button class="remove-button4">Remove</button>
+                     </div>
+    </div>
+
+    <h2 div class="head-vegetable"> Vegetables</h2>
+    <div class="card-vegetable">
+        <div class="card1"> 
+            <img src="lady.jpg" alt="Logo">
+            <h3> Lady Finger </h3>
+            <p>Size: 1.5kg</p>
+            <p>Price: Rs.60 </p>
+            <button class="remove-button">Remove</button>
+    </div>
+       <div class="card2">
+       <img src="cab.jpg" alt="Logo">
+            <h3> Cabbage </h3>
+            <p>Size: 0.5kg</p>
+            <p>Price: Rs.310 </p>
+            <button class="remove-button1">Remove</button>
+        </div>
+        <div class="card3">
+            <img src="spinach.png" alt="Logo">
+                 <h3> Spinach </h3>
+                 <p>Size: 7kg</p>
+                 <p>Price: Rs.210 </p>
+                 <button class="remove-button2">Remove</button>
+             </div>
+
+             <div class="card4">
+                <img src="cauli.jpg" alt="Logo">
+                     <h3> Cauliflower </h3>
+                     <p>Size: 3kg</p>
+                     <p>Price: Rs.210 </p>
+                     <button class="remove-button3" >Remove</button>
+                 </div>
+
+                 <div class="card5">
+                    <img src="aubergine.jpg" alt="Logo">
+                         <h3> Aubergine </h3>
+                         <p>Size: 2.5kg</p>
+                         <p>Price: Rs.110 </p>
+                         <button class="remove-button4">Remove</button>
+                     </div>
+                
+                     
+    </div>
+    <script>
+       const removeButton= document.querySelectorAll('.remove-button');
+       removeButton.forEach((button) => {
+        button.addEventListener('click' , (event) =>{
+            const card=event.target.closest('.card1');
+            card.remove();
+        
+        });
+       });
+
+        const removeButton1= document.querySelectorAll('.remove-button1');
+        removeButton1.forEach((button) => {
+         button.addEventListener('click' , (event) =>{
+             const card=event.target.closest('.card2');
+             card.remove();
+         
+         });
+        });
+
+        const removeButton2= document.querySelectorAll('.remove-button2');
+        removeButton2.forEach((button) => {
+         button.addEventListener('click' , (event) =>{
+             const card=event.target.closest('.card3');
+             card.remove();
+         
+         });
+        });
+        const removeButton3= document.querySelectorAll('.remove-button3');
+        removeButton3.forEach((button) => {
+         button.addEventListener('click' , (event) =>{
+             const card=event.target.closest('.card4');
+             card.remove();
+         
+         });
+        });
+        const removeButton4= document.querySelectorAll('.remove-button4');
+        removeButton4.forEach((button) => {
+         button.addEventListener('click' , (event) =>{
+             const card=event.target.closest('.card5');
+             card.remove();
+         
+         });
+        });
+        
+     </script>
+ 
+       
+    
+   
+
+
+
+</html>

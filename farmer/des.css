@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.topnav img {
+    height: 60px; 
+    width: auto; 
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  
+  .container button {
+    position: absolute;
+    border: none;
+    height: 49px;
+    width: 150px;
+    background: goldenrod;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-top: -93px;
+    font-family: "Montserrat", sans-serifs;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #1c4301;
+    overflow: hidden;
+    height: 90px;
+    justify-content: center;
+  }
+  
+.topnav a {
+    position: relative;
+    display: inline-block;
+    margin-left: 380px;
+    font-family: "Montserrat", sans-serifs;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+      
+  }
+
+  .con button{
+
+    position: absolute;
+    border: none;
+    height: 49px;
+    width: 150px;
+    background: goldenrod;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-top: -93px;
+    font-family: "Montserrat", sans-serifs;
+  }
+  
+
+ button:hover {
+    background-color: gold;
+    color: white;
+}
+
+.topnav button{
+  background-color:#1c4301;
+  height: 35px;
+  border-radius: 5px;
+  width: 60px;
+  border: 1px solid #1c4301 ;
+  color: white;
+  margin-left: 360px;
+  font-family: "Montserrat", sans-serifs;
+  font-size: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.topnav button:hover{
+  background-color: red;
+  border: 1px solid red;
+}
+
+
+
+.topnav img{
+    border-radius: 6.5px;
+}
+
+.topnav img:hover{
+  transform: scale(1.2); /* Increase the size of the logo on hover */
+  transition: transform 0.4s ease-in-out; /* Add a smooth transition effect */;
+}
+
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(0.5);
+}
+   
+.vid{
+  overflow: hidden;
+  height: 650px;
+  position: relative;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  z-index: 1;
+}
+
+.container-wrapper{
+  display: flex;
+  margin-bottom: 97px;
+}
+.con,
+.container {
+  width: 450px;
+  height: 480px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 15%;
+  position: relative;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.con:hover,
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.con:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.container:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+
+}
+.container a{
+    position: absolute;
+    border: none;
+    height: 49px;
+    width: 170px;
+    background: goldenrod;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-top: -93px;
+    font-family: "Montserrat", sans-serifs;
+    text-decoration: none;
+
+   
+  }
+.container img{
+  width: 450px;
+  height: 100%;
+  border-radius: 20px;  
+}
+.con img{
+  width: 450px;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.con a{
+  position: absolute;
+  border: none;
+  height: 49px;
+  width: 150px;
+  background: goldenrod;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border-radius: 12px;
+  margin-left: 30%;
+  margin-top: -93px;
+  font-family: "Montserrat", sans-serifs;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+
+.navitems{
+  margin-top: -42px;
+  margin-left: 140px;
+  font-family: "Montserrat", sans-serifs;
+
+}
+
+.head-fruit{
+  font-family: "Montserrat", sans-serifs;
+  font-size: 50px;
+  padding: 5px 40px ;
+}
+
+.card-fruit{
+  display: flex;
+
+}
+
+.card1{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 40px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+.card1 h3{
+  display: block;
+}
+.card1 p{
+  display: inline;
+
+}
+.card1 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+.card2{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card2 h3{
+  display: block;
+}
+.card2 p{
+  display: inline;
+
+}
+.card2 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+.card3{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card3 h3{
+  display: block;
+}
+.card3 p{
+  display: inline;
+
+}
+.card3 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+.card4{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card4 h3{
+  display: block;
+}
+.card4 p{
+  display: inline;
+
+}
+.card4 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+.card5{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card5 h3{
+  display: block;
+}
+.card5 p{
+  display: inline;
+
+}
+.card5 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+
+
+
+.head-vegetable{
+  font-family: "Montserrat", sans-serifs;
+  font-size: 50px;
+  padding: 5px 40px ;
+  margin-top: 30px;
+
+}
+
+.card-vegetable{
+  display: flex;
+  
+}
+
+.card1{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 40px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+.card1 h3{
+  display: block;
+}
+.card1 p{
+  display: inline;
+
+}
+.card1 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+.card2{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card2 h3{
+  display: block;
+}
+.card2 p{
+  display: inline;
+
+}
+.card2 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+.card3{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card3 h3{
+  display: block;
+}
+.card3 p{
+  display: inline;
+
+}
+.card3 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+.card4{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card4 h3{
+  display: block;
+}
+.card4 p{
+  display: inline;
+
+}
+.card4 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+.card5{
+  background-color: #4CAF50;
+  height: 280px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 35px;
+  border-radius: 5%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(20, 20, 20, 0.5);
+
+}
+
+.card5 h3{
+  display: block;
+}
+.card5 p{
+  display: inline;
+
+}
+.card5 button{
+  display: block;
+  background-color: red;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: white;
+  width:90px;
+  border: 0.5px solid red;
+}
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural products</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />    
+    <link rel="stylesheet" type="text/css" href="approval.css"> 
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">   
+                <h2>Agricultural <span class="title">products</span></h2> 
+            </div>
+                <!-- this is going to be our aside bar starting -->
+                <div class="sidebar">
+                    <a href="admin.html">
+                        <span class="material-symbols-sharp">grid_view</span>
+                        <h3>Admin Dashboard</h3>
+                    </a>
+                    <a href="customers.html">
+                        <span class="material-symbols-sharp">support_agent</span>                    
+                        <h3>Customers</h3>
+                    </a>
+                    <a href="farmer.html">
+                        <span class="material-symbols-sharp">nature_people</span>
+                        <h3>Farmers</h3>
+                    </a>
+                    <a href="" class="active">
+                        <span class="material-symbols-sharp">approval_delegation</span>
+                         <h3>Approvals</h3>
+                    </a>
+                    
+                    <a href="feedback.html">
+                        <span class="material-symbols-sharp">reviews</span>
+                         <h3>Feedbacks</h3>
+                    </a>
+                    <a href="#" id="log-out">
+                        <span class="material-symbols-sharp">logout</span>
+                         <h3>Log out</h3>
+                    </a>   
+                </div>   
+        </aside>
+        <main>
+            <h1> Approvals</h1>
+            <div class="stats">
+                <div class="approval-count">
+                    <h2>Customers Statistics</h2>
+                </div>
+                <table>
+                    <tr>
+                        <th>Overall Requests:</th>
+                        <th>Approved Requests:</th>
+                        <th>Pending Requests:</th>
+                        <th>Declined Requests:</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>12</td>
+                            <td>4</td>
+                            <td>15</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="recent-approvals">
+                <h1>Recent Approvals</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>customer Name</th>
+                            <th>Categories</th>
+                            <th>Education</th>
+                            <th>Phone Number</th>
+                            <th>Address</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rubin Dhakal</td>
+                            <td>Fruits</td>
+                            <td>+2</td>
+                            <td>98xxxxxxxx</td>
+                            <td>Syambhu</td> 
+                            <!-- <td><button>Approve</button>
+                                <button>Reject</button>
+                            </td> -->
+                        </tr>
+                        
+                        <tr>
+                            <td>Sangam Dumre</td>
+                            <td>Vegetables</td>
+                            <td>+2</td>
+                            <td>98xxxxxxxx</td>
+                            <td>Buddhanagar</td>  
+                            <!-- <td><button>Approve</button>
+                                <button>Reject</button>
+                            </td> -->
+                        </tr>
+                        
+                        <tr>
+                            <td>Abrian Bajracharya</td>
+                            <td>Fruits</td>
+                            <td>11</td>
+                            <td>98xxxxxxxx</td>
+                            <td>Chakupat</td>
+                            <!-- <td><button>Approve</button>
+                                <button>Reject</button>
+                            </td> -->
+                        </tr>
+                        
+                        <tr>
+                            <td>kulbhusan Basnet</td>
+                            <td>Fruits</td>
+                            <td>+2</td>
+                            <td>98xxxxxxxx</td>
+                            <td>Kuleshwor</td>>
+                            <!-- <td><button>Approve</button>
+                                <button>Reject</button>
+                            </td> -->
+                        </tr>
+                        <tr>
+                            <td>AnupDangi</td>
+                            <td>Fruits</td>
+                            <td>+2</td>
+                            <td>98xxxxxxxx</td>
+                            <td>Kaushaltar</td>
+                            <!-- <td><button>Approve</button>
+                                <button>Reject</button>
+                            </td> -->
+                        </tr>  
+                    </tbody>
+                </table> 
+            </div>
+        </main>
+        </div>
+        <script src="Server.js"></script>
+    </body>
+</html>

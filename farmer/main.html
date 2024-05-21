@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Market</title>
+    <link rel="stylesheet" href="des.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/user?f=sharp&s=solid&pc=%23f2f2f2">
+</head>
+
+<body>
+    <div class="topnav">
+        <img src="k.png" alt="Logo">
+        <div class="navitems">
+            <a href="main.html">Home</a>
+            <a href="myproduct.html">My Product</a>
+            <button id="signout-button">Sign out</button>
+        </div>
+    </div>
+    <div class="vid"> 
+       
+        <video autoplay muted loop >
+            <source src="l.mp4" type="video/mp4">
+            <source src="l.webm" type="video/webm">
+            </video>
+
+            <h2 class="video-overlay">Welcome to Farmer Dashboard</h2></div>
+
+    <div class="container-wrapper">
+        <div class="container">
+            <img src="veg.jpg" alt="Logo">
+            <div class="but">
+                <button id="vegetable">Add Your Vegetables</button>
+            </div>
+        </div>
+        <div class="con">
+            <img src="fruit.jpg" alt="Logo">
+            <div class="butt">
+                <button id="fru">Add Your Fruits</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("signout-button").addEventListener("click", function() {
+            window.location.href = "LOCALFARMERS2/customer/customer1.html";
+        });
+
+        document.getElementById("vegetable").addEventListener("click", function() {
+            window.location.href = "veg.html";
+        });
+
+        document.getElementById("fru").addEventListener("click", function() {
+            window.location.href = "fruit.html";
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Farmer's Market
+	</title>
+
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: #1c4301;
+			font-family: "Montserrat", sans-serifs;
+			text-align: center;
+            color: aliceblue;
+		}
+
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+            color: black;
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 25px;
+            font-weight: bold;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		select, textarea 
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 2px solid black;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 100%;
+            
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="text"],
+		.form-control input[type="number"] {
+			display: inline-block;
+			width: 100%;
+            height: 50px;
+            padding: 10px;
+            box-sizing: border-box;
+
+		}
+
+		button {
+			background-color: #1c4301;
+			border-radius: 2.5px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 50%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+            margin-left: 130px;
+            height: 50px;
+            color: white;
+		}
+
+		.k img{
+			height: 30px;
+			width: 30px;
+			float: left;
+			margin-left: 25px;
+			margin-top: 20px;
+
+		}
+		.k img:hover{
+			transform: scale(1.2); /* Increase the size of the logo on hover */
+			transition: transform 0.4s ease-in-out; /* Add a smooth transition effect */;
+		  }
+
+
+
+	</style>
+</head>
+
+<body>
+	<div class="k">
+		<a href="main.html">
+		<img src="back.png" alt="logo">	  </a></div>
+	
+	
+	<h1>Add Your Product</h1>
+		<form id="my form" action="/fruit" method="post">
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name of Fruits
+			</label>
+			<!-- Input Type Text -->
+			<input type="text" name="name" placeholder="" required>
+		</div>
+		<div class="form-control">
+			<label for="size" id="label-size">
+				Size
+			</label>
+			<input type="Number" name="quantity" placeholder="In kg's" required>
+		</div>
+		<div class="form-control">
+			<label for="Price" id="label-Price"> 
+				Price
+			</label>
+			<!-- Input Type Text -->
+			<input type="Number" name="price" placeholder=" In Dollars" required>
+		</div>
+		<div class="form-control">
+			<label for="Descp" id="label-Descp">
+				Description
+			</label>
+			<!-- Input Type Text -->
+			<input type="text" name="description" placeholder=" " />
+		</div>
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit" onclick="showMessage()">
+			Submit
+		</button>
+	</form>
+	<script> 
+		function showMessage(){
+			alert("Your product has been added")
+			document.getElementById("myform").reset();
+		}
+		
+
+	</script>
+</body>
+
+</html>
+
+<!-- document.getElementById("").addEventListener("click", function(){
+			window.location.href="main.html";
+		}); -->
+
